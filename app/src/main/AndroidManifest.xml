@@ -13,7 +13,7 @@
         android:theme="@style/Theme.PhilipLackner">
 
 
-    <activity android:name=".kotlin_corotines.KotlinCoroutineActivity"
+    <activity android:name=".kotlin_corotines.SuspendFunctionActivity"
         android:exported="true">
         <!-- This makes it the default launcher activity -->
         <intent-filter>

@@ -21,7 +21,7 @@ class KotlinCoroutineActivity :  AppCompatActivity() {
         This code means this will launch our coroutine in a separate thread. Suspended function can be paused and resumed. Delay and Sleep
         are different because delay will only pause only current coroutine wile sleep pause complete thread. One important point to note is
         if the main thread has finished its work, this means all other thread and coroutines will be cancelled. even though they started on
-        another new thread and asyncronously, they will be cancelled if the main thread finishes its work.
+        another new thread and asynchronously, they will be cancelled if the main thread finishes its work.
          */
 
         GlobalScope.launch {
