@@ -13,7 +13,7 @@
         android:theme="@style/Theme.PhilipLackner">
 
 
-    <activity android:name=".kotlin_corotines.JobsWaitingCancellation"
+    <activity android:name=".kotlin_corotines.AsyncAndAwaitActivity"
         android:exported="true">
         <!-- This makes it the default launcher activity -->
         <intent-filter>
